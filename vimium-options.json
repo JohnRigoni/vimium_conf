@@ -1,0 +1,16 @@
+{
+  "keyMappings": "# Insert your preferred key mappings here.\nunmap J\nunmap K\nmap gh goBack\nmap gl goForward\nmap J scrollPageDown\nmap K scrollPageUp\nmap H previousTab\nmap L nextTab",
+  "newTabUrl": "pages/blank.html",
+  "scrollStepSize": 220,
+  "smoothScroll": false,
+  "grabBackFocus": true,
+  "searchEngines": "w: https://www.wikipedia.org/w/index.php?title=Special:Search&search=%s Wikipedia\n\n# More examples.\n#\n# (Vimium supports search completion Wikipedia, as\n# above, and for these.)\n#\ng: https://www.google.com/search?q=%s Google\ny: https://www.youtube.com/results?search_query=%s Youtube\n# gm: https://www.google.com/maps?q=%s Google maps\n# b: https://www.bing.com/search?q=%s Bing\nd: https://duckduckgo.com/?q=%s DuckDuckGo\n# az: https://www.amazon.com/s/?field-keywords=%s\n# qw: https://www.qwant.com/?q=%s Qwant",
+  "settingsVersion": "2.1.2",
+  "userDefinedLinkHintCss": "div > .vimiumHintMarker {\n/* linkhint boxes */\nbackground: #FC0FC0;\nborder: 2px solid #FC0FC0;\n\n}\n\ndiv > .vimiumHintMarker span {\n/* linkhint text */\ncolor: black;\nfont-weight: bold;\nfont-size: 12px;\n}\n\ndiv > .vimiumHintMarker > .matchingCharacter {\n  background: #ff9632;\n}\n\ndiv > .internalVimiumHintMarker span {\ntext-shadow: none;\n}",
+  "exclusionRules": [
+    {
+      "passKeys": "> < l",
+      "pattern": "https://www.youtube.com/watch*"
+    }
+  ]
+}
